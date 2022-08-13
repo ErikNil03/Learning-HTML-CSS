@@ -7,6 +7,8 @@ body {
     grid-template-columns: 1fr;
 }
 
+/* navbar */ 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -41,4 +43,15 @@ body {
 
 .navlink a:hover {
     color: black;
+}
+
+/* background grid */
+
+.website-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    
 }
