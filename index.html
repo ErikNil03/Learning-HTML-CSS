@@ -127,4 +127,17 @@
 
         </div>
     </body>
+<script>
+    const websiteItems = document.querySelectorAll('.item')
+
+    websiteItems.forEach(websiteItem => {
+        websiteItem.addEventListener('mouseover', () => {
+            websiteItem.childNodes[1].classList.add('img-darken');
+        })
+
+        websiteItem.addEventListener('mouseout', () => {
+            websiteItem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
 </html>
