@@ -55,3 +55,11 @@ body {
 .item {
     position: relative;
 }
+
+.website-img-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
